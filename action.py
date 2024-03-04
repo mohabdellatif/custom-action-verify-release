@@ -29,7 +29,7 @@ def get_latest_run_status(repo):
     server_url = "https://api.github.com/"
     organization = currentrepo.split('/')[0]
     org_url = server_url+ "repos/" + organization + "/"
-    action_filename = os.getenv('GOLDENCICD_FILENAME') 
+    action_filename = os.getenv('CICD_FILENAME') 
     
     response = session.get(
         f"{org_url}{repo}/actions/workflows/{action_filename}/runs"
