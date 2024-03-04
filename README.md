@@ -22,3 +22,7 @@ It expects the following inputs from https://github.com/GumGum-Inc/custom-action
 | `GITHUB_REPOSITORY`                 | String  | No      | Passed by git event                                                       | The name of the current repository (used to determine the organization name).  
 | `CREATE_FAILED`                 | String  | No      | False      |    Set to "True" if the release creation failed and the script should exit immediately.  
 | `GH_RELEASE`                 | String  | No      | Org parameter      |    Your GitHub token, used to authenticate with the
+| `CICD_FILENAME`                 | String  | No      | Org parameter      |    Your github actions filename
+
+
+
