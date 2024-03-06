@@ -1,6 +1,5 @@
 # custom-action-cd-jira-post-release
-This Python script checks the status of GitHub Actions for a list of repositories. It's designed to be run as post release step after https://github.com/GumGum-Inc/custom-action-cd-jira-release
-
+This Python script checks the status of GitHub Actions for a list of repositories.
 ## Scope 
 The scope of this custom action is limited to:  
 - Prints the result of the execuation of release tag creation for all repositiories found in the `PAYLOAD` based on  `releasename`
