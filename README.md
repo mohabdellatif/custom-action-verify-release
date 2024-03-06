@@ -13,7 +13,7 @@ The scope of this custom action is limited to:
 
 
 ## Inputs
-It expects the following inputs from https://github.com/GumGum-Inc/custom-action-cd-jira-release
+It expects the following inputs from https://github.com/mohabdellatif/custom-action-cd-jira-release
 
 | Name                         | Type    | Required | Default Value                                               | Description                                                                                                        |
 | ---------------------------- | ------- |--------- | ----------------------------------------------------------- |------------------------------------------------------------------------------------------------------------------- |
