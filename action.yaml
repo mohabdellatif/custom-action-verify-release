@@ -1,0 +1,7 @@
+# action.yml
+name: 'JIRA POST RELEASE'
+description: 'Post release validation steps'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+ 
